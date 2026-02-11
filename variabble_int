@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x = 10;
+    int a = 4;
+    int b = 5;
+    int c = 9;
+    int z;
+    z++;
+    z = a;
+    a = b;
+    
+    b = c;
+    c = z;
+    x = a + z;
+
+    cout << "x: " << x << endl;
+    cout << "a: " << a << endl;
+    cout << "b: " << b << endl;
+    cout << "c: " << c << endl;
+    cout << "z: " << z << endl;
+    return 0;
+}
