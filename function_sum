@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+int sum (int x, int y);
+int main(){
+    cout << "Enter 2 numbers" << endl;
+    int a, b, ans;
+    cin >> a >> b;
+    ans = sum(a, b);
+    cout << "The sum is: " << ans << endl;
+}
+
+int sum (int x, int y){
+    int ans = 0;
+    ans = x + y;
+    return ans;
+}
